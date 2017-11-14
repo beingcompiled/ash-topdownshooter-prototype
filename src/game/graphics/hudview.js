@@ -7,13 +7,14 @@
         var self = this;
         PIXI.DisplayObjectContainer.call(self);
 
-        self.width = 100;
-        self.height = 25;
+        self.width = 200;
+        self.height = 40;
         self.margin = 10;
         self.data = null;
         
-        var padding = 5,
-            spacing = 100;
+        var paddingX = 5,
+            paddingY = 5,
+            spacing = 0;
 
         var g = new PIXI.Graphics();
         g.lineStyle(1, "0xffffff");
@@ -22,9 +23,9 @@
         g.alpha = 0.25;
         self.addChild(g);
 
-        var text = new PIXI.Text(id + ":", {font:"12px Arial", fill:"white"});
-        text.position.x = padding;
-        text.position.y = padding;
+        var text = new PIXI.Text(id + ":", {font:"28px Arial", fill:"white"});
+        text.position.x = paddingX;
+        text.position.y = paddingY;
         self.addChild(text);
 
         self.update = function(data) {

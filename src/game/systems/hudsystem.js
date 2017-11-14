@@ -64,7 +64,7 @@ define([
                 for (var i=0; i<this.components[component].length; i++) {
 
                     var id = this.components[component][i],
-                        pos = new Point(10, 80 + (25*i));
+                        pos = new Point(10, 80 + (45*i));
                     
                     var hud = new HudView(id);
                     hud.position = pos;

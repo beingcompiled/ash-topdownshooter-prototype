@@ -40,7 +40,7 @@ define([
             this.width = gameState.width;
             this.height = gameState.height;
 
-            this.zoom = 0.65; 
+            this.zoom = 1.2; 
             this.zoomMin = 0.25;
             this.zoomMax = 2;
             this.zoomSpeed = 0.05;
