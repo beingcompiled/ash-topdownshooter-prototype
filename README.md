@@ -1,6 +1,8 @@
 prototype-createjs-platformer
 ==================================
 
+- work in progress
+
 Generative top-down shooter prototype using ashjs, box2d, pixijs
 
 python -m SimpleHTTPServer
